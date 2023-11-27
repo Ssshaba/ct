@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -7,48 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Главная</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">Главная</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#about">О проекте</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#testing">Тестирование</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">Команда</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg" style="font-family: Inter SemiBold;">
+        <div class="container-fluid justify-content-center nav_center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo01">
+                <ul class="navbar-nav" style="margin-top: 2vw !important; font-size: 1.2vw;">
+                    <li class="nav-item px-5">
+                        <a class="nav-link under" aria-current="page" href="#about">О ПРОЕКТЕ</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link under" href="#testing">ТЕСТИРОВАНИЕ</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link under" href="#team">КОМАНДА</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-
+        </div>
+    </nav>
     <section class="index">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-6">
                     <div class="row">
-                        <h2 class="text-center text-uppercase color1 mb-5">Диагностика КТ снимка почек</h2>
+                        <div class="text-uppercase mb-5 index_title" style="font-size: 3vw">
+                            Диагностика КТ снимка почек
+                        </div>
+                        <div class="col index_text"
+                            style="font-size: 1.2vw; padding-right: 10vw; font-family: Inter SemiBold;">
+                            Применение ИИ на базе
+                            КТ снимков позволит оптимизировать систему
+                            здравоохранение, улучшить
+                            качество
+                            жизни пациентов
+                            <br><br><br>
+
+                        </div>
+                        <button type="button" class="btn btn-lg"
+                            style="font-size: 2vw; background-color: #f38a8a; color: white; width: 70%;  font-family: Inter ExtraBold;">Загрузить
+                            снимок</button>
                     </div>
-                    <p>Применение ИИ на базе КТ снимков позволяет оптимизировать систему здравоохранение, улучшить
-                        качество
-                        жизни пациентов.</p>
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="img/Почки 2.png" alt="" class="img-fluid itd-img">
@@ -56,79 +62,69 @@
             </div>
         </div>
     </section>
-
     <section class="about-project" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-uppercase color1 mb-5">О проекте</h2>
+                <div class="col text-uppercase mb-5 about_title" style="font-size: 3vw">
+                    О проекте
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-md-6">
-                    <p>Проект имеет высокую актуальность и практическую значимость, поскольку он способствует улучшению
-                        процесса диагностики, увеличит скорость и точность выставления диагноза. Применение ИИ на базе
-                        КТ снимков позволяет оптимизировать систему здравоохранение, улучшить качество жизни пациентов.
-                        <br>
-                        <br>
-                        Внедрение искусственного интеллекта в процесс позволит значительно поднять процент правильных
-                        диагнозов, а также снизить время, необходимое для прохождение КТ и выставление диагноза. В
-                        среднем, расшифровка томограмм отдельной системы органов занимает 15–20 минут [10], когда как ИИ
-                        мог бы справится с этой задачей менее чем за минуту и иметь точность близкую к 100%.
-                    </p>
+                <div class="col-md-6 about_text" style="font-size: 1.2vw; font-family: Inter SemiBold;">
+                    Проект имеет высокую актуальность и практическую значимость, поскольку он способствует улучшению
+                    процесса диагностики, увеличит скорость и точность выставления диагноза. Применение ИИ на базе
+                    КТ снимков позволяет оптимизировать систему здравоохранение, улучшить качество жизни пациентов.
+                    <br>
+                    <br>
+                    Внедрение искусственного интеллекта в процесс позволит значительно поднять процент правильных
+                    диагнозов, а также снизить время, необходимое для прохождение КТ и выставление диагноза. В
+                    среднем, расшифровка томограмм отдельной системы органов занимает 15–20 минут [10], когда как ИИ
+                    мог бы справится с этой задачей менее чем за минуту и иметь точность близкую к 100%
                 </div>
-
             </div>
         </div>
     </section>
-
     <section class="test" id="testing">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h2 class=" text-uppercase color1 mb-5">Тестирование модели</h2>
+                <div class="col text-uppercase mb-5 test_text" style="font-size: 3vw">
+                    Тестирвоание модели
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-md-6">
-
+                    <img src="img/model.png" alt="" class="img-fluid" style="width: 100%;">
                 </div>
             </div>
         </div>
     </section>
-
     <section class="team" id="team">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class=" text-uppercase color1 mb-5">Наша Команда</h2>
+                    <div class="col text-uppercase mb-5 team_title" style="font-size: 3vw">
+                        Наша команда
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 team_text">
+                        <ul class="list-unstyled" style="font-size: 1.2vw; font-family: Inter SemiBold;">
+                            <li>Ивакина Алина</li>
+                            <li>Былинская Елизавета</li>
+                            <li>Стокозуб Екатерина</li>
+                            <li>Отрешко Даниил</li>
+                            <li>Шабельник Максим</li>
+                            <li>Тонкин Вячеслав</li>
+                            <li>Евсиков Даниил</li>
+                            <li>Лазарев Владислав</li>
+                            <li>Сметанин Андрей</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="list-unstyled" style="font-size: 18px;">
-                        <li>Ивакина Алина</li>
-                        <li>Былинская Елизавета</li>
-                        <li>Стокозуб Екатерина</li>
-                        <li>Отрешко Даниил</li>
-                        <li>Шабельник Максим</li>
-                        <li>Тонкин Вячеслав</li>
-                        <li>Евсиков Даниил</li>
-                        <li>Лазарев Владислав</li>
-                        <li>Сметанин Андрей</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </section>
-
     <footer id="footer"></footer>
-
     <script src="js/bootstrap.bundle.min.js"> </script>
-
 </body>
 
 </html>

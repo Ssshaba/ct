@@ -1,130 +1,110 @@
-:root {
-    --color1: #05b1b1;
-    --color2: #52339a;
-}
-
-
 footer,
 section {
-    padding: 100px 0;
+    padding: 3vw 0;
 
 }
-
-
-.itd_play {
-    background-color: var(--color1);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    cursor: pointer;
-    margin: 30px auto;
-    transition: all 0.2s ease;
-
-}
-
-.itd_play:hover {
-    background-color: var(--color2);
-}
-
-.itd_triangle {
-    margin-top: 19.5px;
-    margin-right: -3px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 20px;
-    border-color: transparent transparent transparent var(--bs-white);
-}
-
-.btn-itd {
-    display: block;
-    max-width: 200px;
-    margin: 0 auto;
-    padding: 8px 30px;
-    color: var(--bs-white);
-    background-color: var(--color2);
-}
-
-.btn-itd:hover {
-    color: var(--bs-white);
-    background-color: var(--color1);
-}
-
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/*о курсе*/
-.about,
-.shedule,
-.auther {
-    background-color: #eee;
-}
-
-.about i {
-    font-size: 25px;
-    color: var(--color2);
-}
-
-.itd-circle {
-    margin: 0 auto 15px;
-    width: 70px;
-    height: 70px;
-    border: solid var(--color2);
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.line {
-    width: 100px;
-    height: 3px;
-    background-color: var(--color1);
-    margin: 15px auto 30px;
-}
-
-
 
 .itd-img {
-    max-width: 260px;
+    width: 25vw;
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
+.under {
+    text-decoration: underline;
+    color: black !important;
 }
 
 
-
-/* цвет */
-.color1 {
-    color: var(--color1);
+.navbar-nav {
+    justify-content: center !important;
 }
 
-.color2 {
-    color: var(--color2);
+body {
+    font-family: 'Inter ExtraBold', sans-serif;
+    overflow-y: overlay;
+    background: rgb(230, 235, 255);
+    background: linear-gradient(90deg, rgba(230, 235, 255, 1) 0%, rgba(234, 238, 255, 1) 100%);
 }
 
-.bg1 {
-    background-color: var(--color1);
+.index_text,
+.about_text,
+.list-unstyled {
+    line-height: 1.6vw;
 }
 
-.bg2 {
-    background-color: var(--color2);
+@font-face {
+    font-family: 'Inter ExtraBold';
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+    src: url("../font/Inter-ExtraBold.woff2");
+}
+
+@font-face {
+    font-family: 'Inter SemiBold';
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+    src: url("../font/Inter-SemiBold.woff2");
+}
+
+@media(max-width: 767px) {
+
+    .index_title,
+    .about_title,
+    .test_text,
+    .team_title {
+        font-size: 8vw !important;
+        text-align: center !important;
+        margin-top: 8vw !important;
+    }
+
+
+
+    .navbar {
+        background-color: white !important;
+    }
+
+    .nav_center {
+        justify-content: start !important;
+    }
+
+    .navbar-nav {
+        font-size: 5vw !important;
+    }
+
+    .index_text,
+    .about_text,
+    .list-unstyled {
+        font-size: 5vw !important;
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+        text-align: center !important;
+        margin-top: -5vw !important;
+        line-height: 6vw;
+    }
+
+    .list-unstyled {
+        padding-left: 12vw !important;
+    }
+
+    .btn {
+        font-size: 4vw !important;
+        margin-top: -5vw !important;
+        margin-left: 5vw !important;
+        text-align: center !important;
+        width: 50% !important;
+    }
+
+    .itd-img {
+        width: 36% !important;
+        position: absolute;
+        top: 80vw !important;
+        right: 5vw;
+        z-index: -1;
+    }
 }
