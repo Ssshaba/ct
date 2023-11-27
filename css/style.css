@@ -38,18 +38,12 @@ body {
 
 @font-face {
     font-family: 'Inter ExtraBold';
-    font-display: swap;
-    font-weight: bold;
-    font-style: normal;
-    src: url("font/Inter-ExtraBold.woff2");
+    src: url("../font/Inter-ExtraBold.woff2");
 }
 
 @font-face {
     font-family: 'Inter SemiBold';
-    font-display: swap;
-    font-weight: bold;
-    font-style: normal;
-    src: url("font/Inter-SemiBold.woff2");
+    src: url("../font/Inter-SemiBold.woff2");
 }
 
 @media(max-width: 767px) {
